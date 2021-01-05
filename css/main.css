@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+@font-face {
+    font-family: "Bleeding Cowboys";
+    src: url(fuentes/Bleeding_Cowboys.ttf);
+}
+
+@font-face {
+    font-family: "London";
+    src: url(fuentes/OldLondon.ttf);
+}
+
+@font-face {
+    font-family: "NewYork";
+    src: url(fuentes/NewYork.otf)
+}
+
+#main{
+    background-color: rgb(218, 188, 188);
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Pirata One', cursive;
+    font-size: 25px;
+}
+
+header{
+    margin: 50px;
+}
+
+/*AQUI ESTA EL NOMBRE DE LA EMPRESA EN EL INICIO*/
+
+#name{
+    font-size: 150px;
+    color: goldenrod;
+    font-family: "London";
+    font-weight: bold;
+}
+
+/*AQUI EMPIEZA EL MENU*/
+
+#menu{
+    font-size: 25px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul{
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -100px;
+    top: -50px;
+}
+
+.nav li a{
+    top: -50px;
+}
+
+/*AQUI ACABA EL MENU*/
+
+article.articulosindex{
+    color: white;
+    margin: 0px 50px 50px 100px;
+}
+
+footer{
+    float: left;
+    margin-left: 40%;
+}
+
+img.redes{
+    width: 50px;
+    margin: 20px;
+}
+img.redes:hover{
+    margin-top: 2px;
+    opacity: 0.6;
+}
+
+
+/*AQUI EMPIEZA EL EQUIPO*/
+
+#equipo{
+    background-image: url(../img/equipo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuequipo{
+    font-size: 25px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.fotoequipo1{
+    height: 320px;
+    margin: 5px;
+    border: goldenrod 5px solid;
+}
+
+#equipo1{
+   font-weight: bold;
+   float: left;
+   margin-left: 30px;
+   color: white;
+   border-right: white solid;
+   padding: 50px;
+}
+
+.fotoequipo2{
+    height: 320px;
+    width: 480px;
+    margin: 5px;
+    border: goldenrod 5px solid;
+}
+
+#equipo2{
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    color: white;
+    border-right: white solid;
+    padding: 50px;
+}
+
+.fotoequipo3{
+    height: 320px;
+    width: 500px;
+    margin: 5px;
+    border: goldenrod 5px solid;
+}
+
+#equipo3{
+    font-weight: bold;
+    float: left;
+    margin-left: 50px;
+    color: white;
+    padding-top: 50px;
+}
+
+/*AQUI ACABA EL EQUIPO*/
+
+/*AQUI EMPIEZA MISION VISION VALORES*/
+
+#misionvisionvalores{
+    background-image: url(../img/fondomisionvisionvalores.jpg);
+    background-size: cover;
+    font-family: "NewYork";
+}
+
+#mision{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: goldenrod solid;
+    padding: 50px;
+}
+
+#vision{
+    color: white;
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#valores{
+    color: white;
+    font-size: 20px;
+    float: right;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.mvv{
+    text-align: center;
+}
+
+/*AQUI ACABA MISION VISION VALORES*/
+
+/*AQUI EMPIEZA INSTALACIONES*/
+
+#instalaciones{
+    background-image: url(../img/fondoinstalaciones.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: goldenrod
+}
+
+.instalaciones1{
+    height: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.instalaciones2{
+    height: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.instalaciones3{
+    height: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.instalaciones4{
+    height: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.instalaciones1:hover{
+    opacity: 0.5;
+}
+
+.instalaciones2:hover{
+    opacity: 0.5;
+}
+
+.instalaciones3:hover{
+    opacity: 0.5;
+}
+
+.instalaciones4:hover{
+    opacity: 0.5;
+}
+
+.instalaciones{
+    margin: -8px;
+    background-color: rgb(73, 73, 73);
+}
+
+#instalacionestitulo{
+    text-align: center;
+}
+
+/*AQUI ACABA INSTALACIONES*/
+
+/*AQUI EMPIEZA SERVICIOS*/
+
+#servicios{
+    background-color: gray;
+    margin: 0px;
+    font-family: "NewYork";
+    font-weight: bold;
+}
+
+.servicios1{
+    height: 500px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.fotoservicios1{
+    height: 500px;
+        float: right;
+}
+
+.servicios2{
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.fotoservicios2{
+    height: 500px;
+}
+
+.textoservicios2{
+    float: right;
+}
+
+.servicios3{
+    height: 500px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.fotoservicios3{
+    height: 500px;
+    float: right;
+}
+
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin: 250px;
+  }
+
+/*AQUI ACABA SERVICIOS*/
+
+/*AQUI EMPIEZA CONTACTO*/
+
+#contacto{
+    background-image: url(../img/fondocontacto2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#formulario{
+    border: solid;
+    width: 500px;
+    background-color: chocolate;
+    margin-left: 200px;
+}
+
+form{
+    text-align: center;
+}
+
+.botonformulario{
+    background-color: dimgray;
+    margin: 20px;
+    border: floralwhite solid;
+    border-radius: 15px;
+}
+
+.botonformulario:hover{
+    opacity: 0.5;
+}
+
+/*AQUI ACABA CONTACTO*/
+
+/*AQUI EMPIEZA ORDENADORES*/
+#ordenadores{
+    background-image: url(../img/ordenadores1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:whitesmoke;
+    font-size: 30px;
+    font-family: "NewYork";
+}
+
+#ordenadores1{
+    height: 650px;
+    margin: -11px;
+    color: goldenrod;
+    float: left;
+    text-align: center;
+}
+
+.ordenador1in{
+    float: right;
+    font-size: 15px;
+}
+
+#ordenadores2{
+    border: solid;
+}
+
+.fotoordena:hover{
+    opacity: 0.5;
+    margin-top: 4px;
+}
+
+/*AQUI ACABA ORDENADORES*/
+
+/*AQUI EMPIEZA IMPRESORAS*/
+
+#impresora{
+    background-image: url(../img/fondoimpresoras.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 2700px 800px;
+}
+#colormenu{
+    color: goldenrod;
+}
+
+#textoimpresoras{
+    width: auto;
+    text-align: center;
+    height: 250px;
+    margin: 0px -8px;
+    background-image: url(../img/ricohlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    color: goldenrod;
+}
+
+.impresoras{
+    float: left;
+    height: 660px;
+    width: 465px;
+    size: 20px;
+    font-family: "";
+    font-weight: bold;
+}
+
+.iconoimpresora{
+    height: 20px;
+}
+
+.fotosimpresoras:hover{
+    opacity: 0.5;
+    margin-top: 4px;
+}
+/*AQUI ACABA IMPRESORAS*/
